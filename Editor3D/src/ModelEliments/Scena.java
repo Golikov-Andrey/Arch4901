@@ -1,16 +1,17 @@
 package ModelEliments;
 
 public class Scene extends PoligonalModel {
-    private int id;
+    int id;
+  ArrayList<PoligonalModel> models = new ArrayList<>();
+  ArrayList<Flash> flashes = new ArrayList<>();
 
-    // Constructor, getters, and setters
+  public Object method1(Object in1) {
+    return in1;
+  }
 
-    public Type method1(Type type) {
-        // Implementation of method1
-    }
-
-    public Type method2(Type type1, Type type2) {
-        // Implementation of method2
-    }
+  public Object method2(Object in1, Object in2) {
+    Object ret = new Object();
+    return ret;
+  }
 }
 
