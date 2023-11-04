@@ -1,6 +1,6 @@
 package ModelEliments;
 
 public class PoligonalModel {
-    private List<Poligon> poligons;
-    private Texture textured;
+    ArrayList<Poligon> poligons = new ArrayList<>();
+  ArrayList<Texture> textures = new ArrayList<>();
 }
