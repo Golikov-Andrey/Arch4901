@@ -1,5 +1,5 @@
 public class Poligon {
-    private List<Point3D> points;
+   ArrayList<Point3D> points = new ArrayList<>();
 
     // Constructor, getters, and setters
 }
