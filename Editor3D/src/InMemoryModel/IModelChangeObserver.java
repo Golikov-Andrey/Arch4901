@@ -1,3 +1,3 @@
 public interface IModelChangeObserver {
-    void applyUpdateModel();
+    public void ApplyUpdateModel();
 }
